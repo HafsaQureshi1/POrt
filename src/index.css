@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Rest of your CSS styles */
+
+#h2_font {
+  font-family: 'Jost', sans-serif;
+}
+#h{
+  font-family: 'jost';
+}
+#ad {
+  font-family: 'Jost';
+  color: black;
+}
+
+.app {
+    background-image: url('./assets/images/back.png');
+   width: 100%;
+    
+  }
+  
+  .orange-dot-cursor {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid rgba(186, 85, 48, 0.633); /* Orange stroke */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  .inner-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  #but {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 180px;
+    background: transparent;
+    font-size: 16px;
+    border: 2px solid rgb(219, 58, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.8s; /* Apply transition to color and background-color */
+  
+  }
+  
+  #but:hover {
+    color: white;
+    background-color: orangered;
+    
+  }
+  
+  #ab {
+    /* Use hyphenated syntax for compound property names */
+    color: white;
+    background-color: orangered;
+    width: 9rem;
+    font-size: 16px;  /* Use hyphenated syntax for compound property names */
+    border: 2px solid rgb(219, 58, 0); /* Add a value to the border property */
+    border-radius: 32px; /* Use hyphenated syntax for compound property names */
+    height: 3rem;
+    transition: ease-out 0.8s;
+  }
+  #ab:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  .name{
+    color: rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-size: 60px;
+  }
+.float-area{
+  height:100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.float-img{
+  transform: translateY(-10%);
+  animation: floater 4.5s infinite;
+  transition: ease 4.5s;
+  width: 7rem;
+
+}
+
+
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 2.5s;}
+  50%{transform: translateY(10%);transition: ease 2.5s;}
+}
+/* Header.css */
+
+/* Header.css */
+
+.navbar {
+  transition: background-color 1.5s ease; /* Adjust the duration as needed */
+}
+.bg-white {
+  background-color: white !important;
+}
+.wow-delayed {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+
+
+.wow-delayed.wow {
+  opacity: 1;
+}
+
+
+
+.card{
+  border-radius: 10%;
+  padding: 10px;
+}
+.card:hover{
+  background-color: rgba(255, 255, 255, 0.926);
+ 
+}
+#hov:hover{
+
+  background-color: rgba(255, 236, 212, 0.892);
+ 
+}
+
+@keyframes scroll_1 {
+  0%   { transform: translateY(0); }
+  25%  { transform: translateY(-0.6em); }
+  50%  { transform: translateY(0); }
+  75%  { transform: translateY(0.6em); }
+  100% { transform: translateY(0); }
+}
+
+
+
+.scroll-icon__wheel-outer {
+   align-items: center;
+  justify-content: center;
+  display: block;
+  position: absolute;
+  left: 57%;
+  top: .6em;
+  height: 13px;
+  width: 2px;
+  margin-left: -.2em;
+  border-radius: .4em;
+  overflow: hidden;
+}
+
+.scroll-icon__wheel-inner {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  background: #2c2b2b;
+  animation: scroll_1 2.75s ease-in-out infinite;
+}
+
+.scroll-icon {
+  display: block;
+  position: relative;
+  height: 33px;
+  width: 20px;
+  border: 2px solid #1e1c1c;
+  border-radius: 1em;
+}
+
+.example {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-icon:hover{
+  cursor: pointer;
+  background-color: rgb(250, 205, 187)
+  
+}
+/* styles.css */
+
+@keyframes textAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(120px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  animation: textAnimation 3s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+.animated-text1 {
+  animation: textAnimation 4s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+.skill-container {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 1px solid rgb(204, 200, 200);
+  text-align: center;
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.bar_in {
+  width: 100%;
+  border-radius: 8px;
+  height: 10px; /* Set your preferred height */
+  margin-top: 0px; /* Adjust spacing as needed */
+  transition: width 0.8s ease-in-out; /* Adjust the duration for the animation */
+}
