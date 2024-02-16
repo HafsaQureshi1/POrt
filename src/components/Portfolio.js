@@ -57,27 +57,27 @@ export default function Portfolio() {
       <Tab  eventKey="home" title="Websites">
       <div className="container">
               <div className="row my-2 justify-content-center text-center ">
-              <div className="my-5 col-lg-3 justify-content-center text-center ">
-                <a className="web" style={{textDecoration:'none'}} href="https://farhang-official.vercel.app/"><img className="img-fluid" src={g1} alt="" />
-                <h3  className="my-4">Ecommerce Website</h3></a>
-                <p className="text-secondary">"Embark on a cultural journey through our website, where diversity thrives. Explore and celebrate the richness of traditions, </p>
-                  <p>Github Link : <a href="https://github.com/HafsaQureshi1/Final_Project_Hafsa_Ali_Sadia.git">Click Here </a></p>
+              <div style={{border:'1px solid orangered'}} className="my-5 col-lg-3 justify-content-center text-center mainweb ">
+                <a className="web" style={{textDecoration:'none'}} href="https://farhang-official.vercel.app/"><img className="img-fluid my-3" src={g1} alt="" />
+                <h3  className="my-2">Ecommerce Website</h3></a>
+                <p className="text-secondary my-4">"Embark on a cultural journey through our website, where diversity thrives. Explore and celebrate the richness of traditions, </p>
+                  <p>Github Link : <a  style={{color:'green',textDecoration:'none'}} href="https://github.com/HafsaQureshi1/Final_Project_Hafsa_Ali_Sadia.git">Click Here </a></p>
               </div>
 
 
-              <div className="my-5 col-lg-3 ">
-              <a className="web" style={{textDecoration:'none'}} href="https://bakerywebsite-eight.vercel.app/"><img className="img-fluid" src={g2} alt="" />
-                <h3  className="my-4">Ash Bakers Website</h3></a>
-                <p className="text-secondary">Ash Bakers: Experience artisanal delights and indulge in freshly baked creations at our online bakery</p>
-                  <p>Github Link : <a href="https://github.com/HafsaQureshi1/Bakerywebsite.git">Click Here </a></p>
+              <div style={{border:'1px solid orangered'}} className="my-5 col-lg-3 mx-4 mainweb">
+              <a className="web" style={{textDecoration:'none'}} href="https://bakerywebsite-eight.vercel.app/"><img className="img-fluid my-3" src={g2} alt="" />
+                <h3  className="my-2">Ash Bakers Website</h3></a>
+                <p className="text-secondary my-4">Ash Bakers: Experience artisanal delights and indulge in freshly baked creations at our online bakery</p>
+                  <p>Github Link : <a style={{color:'green',textDecoration:'none'}} href="https://github.com/HafsaQureshi1/Bakerywebsite.git">Click Here </a></p>
               </div>
 
 
-              <div className="my-5 col-lg-3">
-              <a className="web" style={{textDecoration:'none'}} href="https://calligraphy-website.vercel.app/"><img className="img-fluid" src={g3} alt="" />
+              <div style={{border:'1px solid orangered'}} className="my-5 col-lg-3 mainweb">
+              <a className="web" style={{textDecoration:'none'}} href="https://calligraphy-website.vercel.app/"><img className="img-fluid my-2" src={g3} alt="" />
                 <h3  className="my-4">Calligraphy Website</h3></a>
                 <p className="text-secondary">Discover the artistry of calligraphy on our website. Elevate your writing with exquisite penmanship and personalized creations.</p>
-                  <p>Github Link : <a href="https://github.com/HafsaQureshi1/calligraphy_website.git">Click Here </a></p>
+                  <p>Github Link : <a  style={{color:'green',textDecoration:'none'}} href="https://github.com/HafsaQureshi1/calligraphy_website.git">Click Here </a></p>
 
               </div>
             </div>

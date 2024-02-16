@@ -29,7 +29,7 @@ export default function Contact() {
     <>
     <section id="contact">
       <br /><br /><br />
-      <br /><br /><br />
+      <br /><br />
       <br />
       <div className="container-fluid justify-content-center text-center wow-delayed">
         <h3 id="h2_font " style={{ color: 'orangered' }}>Contact Me</h3>

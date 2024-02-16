@@ -20,7 +20,7 @@ export default function About(){
     return(
         <>
         <section id="about">
-          <br /><br /><br />
+          <br /><br /><br /><br />
             <div className="container-fluid justify-content-center text-center my-5 wow-delayed">
                 <div className="row  justify-content-center text-center">
                 <div className=" col-lg-5 col-md-6 col-sm-12 ">

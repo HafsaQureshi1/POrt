@@ -16,7 +16,7 @@ function Serv() {
     <div id="sectionToScroll">
   <div className="my-5 container-fluid justify-content-center text-center p-2">
         <div className="row my-5">
-          <div className="col-lg-1 col-md-1 "></div>
+          <div className="mx-2 col-lg-1 col-md-1 "></div>
           <div className=" mx-1 col-lg-3 col-md-5 col-sm-12 justify-content-center text-center ">
             <Card id='hovvv' className='justify-content-center text-center' style={{ border: 'none' }}>
               <Card.Img className="mx-auto d-block img-fluid justify-content-center" style={{ width: '27%' }} variant="top" src={s1} />
