@@ -211,10 +211,10 @@
 }
 
 .animated-text {
-  animation: textAnimation 3s ease-in-out; /* Adjust the duration and timing function as needed */
+  animation: textAnimation 2s ease-in-out; /* Adjust the duration and timing function as needed */
 }
 .animated-text1 {
-  animation: textAnimation 4s ease-in-out; /* Adjust the duration and timing function as needed */
+  animation: textAnimation 3s ease-in-out; /* Adjust the duration and timing function as needed */
 }
 .skill-container {
   width: 100%;
@@ -230,5 +230,5 @@
   border-radius: 8px;
   height: 10px; /* Set your preferred height */
   margin-top: 0px; /* Adjust spacing as needed */
-  transition: width 0.8s ease-in-out; /* Adjust the duration for the animation */
+  transition: width 3s ease-in-out; /* Adjust the duration for the animation */
 }
