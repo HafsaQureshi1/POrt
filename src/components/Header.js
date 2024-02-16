@@ -110,6 +110,13 @@ export default function Header() {
           </div>
         </div>
       </Navbar>
+      <section class="example example--1">
+    <span class="scroll-icon">
+      <span class="scroll-icon__wheel-outer">
+        <span class="scroll-icon__wheel-inner"></span>
+      </span>
+    </span>
+  </section>
       <br /></section>
     </>
   );
