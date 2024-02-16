@@ -250,3 +250,10 @@
 .scroll-icon:hover{
   color:'orangered';
 }
+.web{
+  color: black;
+  cursor: pointer;
+}
+.web:hover{
+ color: orangered; 
+}
