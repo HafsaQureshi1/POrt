@@ -26,7 +26,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <div id="skills">
+    <section id="skills">
       <br /><br />
       <div className="container justify-content-center">
         <div className="row my-5 mx-3">
@@ -63,6 +63,6 @@ export default function Skills() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

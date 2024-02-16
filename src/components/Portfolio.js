@@ -30,6 +30,7 @@ export default function Portfolio() {
 
   return (
     <>
+    <section id="portfolio">
     <br /><br />
       <div className="container-fluid justify-content-center text-center my-5  wow-delayed ">
         <h3 className="my-4 " style={{color:'orangered',fontSize:'32px'}}>Portfolio</h3>
@@ -55,7 +56,7 @@ export default function Portfolio() {
       <div className="orange-dot-cursor">
           <div className="inner-dot"></div>
       </div>
-      <br />
+      <br /></section>
     </>
   );
 }

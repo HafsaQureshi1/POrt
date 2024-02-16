@@ -10,6 +10,7 @@ import w4 from '../assets/images/w4.png';
 export default function Services() {
   return (
     <>
+    <section className="service">
        <br /><br />
       <div className="container justify-content-center text-center my-5 wow-delayed">
       <h3 className=" " style={{color:'orangered',fontSize:'30px'}}>Services</h3>
@@ -98,7 +99,7 @@ export default function Services() {
        
         </div>
       </div>
-      <br /><br /><br /><br />
+    </section>
     </>
   );
 }

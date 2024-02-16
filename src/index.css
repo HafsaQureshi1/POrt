@@ -47,6 +47,8 @@
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 180px;
+    height: 45px;
+    
     background: transparent;
     font-size: 16px;
     border: 2px solid rgb(219, 58, 0);
@@ -131,11 +133,7 @@
   border-radius: 10%;
   padding: 10px;
 }
-.card:hover{
-  background-color: rgba(255, 255, 255, 0.926);
- 
-}
-#hov:hover{
+#hovvv:hover{
 
   background-color: rgba(255, 236, 212, 0.892);
  
@@ -231,4 +229,24 @@
   height: 10px; /* Set your preferred height */
   margin-top: 0px; /* Adjust spacing as needed */
   transition: width 3s ease-in-out; /* Adjust the duration for the animation */
+}
+#hov{
+  color: rgb(0, 0, 0);
+}
+#hov:hover{
+
+  color: white;
+  background-color: rgb(232, 77, 0);
+  border-radius: 50%;
+}
+.scroll-link{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.scroll-link.active {
+  color: orangered;
+}
+.scroll-icon:hover{
+  color:'orangered';
 }

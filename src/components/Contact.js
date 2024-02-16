@@ -27,6 +27,10 @@ export default function Contact() {
 
   return (
     <>
+    <section id="contact">
+      <br /><br /><br />
+      <br /><br /><br />
+      <br />
       <div className="container-fluid justify-content-center text-center wow-delayed">
         <h3 id="h2_font " style={{ color: 'orangered' }}>Contact Me</h3>
         <h1 id="ad" className="my-4">I Anticipate your Professional Response</h1>
@@ -98,7 +102,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <br /><br /><br />
-    </>
+      </section>    </>
   );
 }

@@ -34,6 +34,7 @@ const Hero = () => {
   return (
     <>
       <br />
+      <section id="hero">
       <div
         style={{ marginTop: "90px" }}
         className="mx-auto container-fluid  justify-content-center  "
@@ -80,33 +81,35 @@ const Hero = () => {
                 Web Design and Development.
               </span>
             </p>
+            <div className="row dflex">
+            <div className="col-lg-3 col-md-6 col-sm-6">
             <button className="my-2" id="ab">
               About me
-            </button>
+            </button></div>
             {/* Use FontAwesomeIcon for the Facebook icon */}
-            <span className="mx-2 ">
-              <a
-                style={{ color: "black" }}
+            <div className="mx-4 col-lg-6 col-md-6 col-sm-6 my-3">
+              <a className=""
+                
                 href="https://www.linkedin.com/in/hafsa-qureshi-51aa93286/"
               >
-                {" "}
-                <FontAwesomeIcon style={{width:'15px' ,height:'25px'}} className="mx-3" icon={faLinkedinIn} />
+            
+                <FontAwesomeIcon id="hov" style={{width:'18px' ,height:'18px'}}  className="mx-1 p-2" icon={faLinkedinIn} />
               </a>
               <a
-                style={{ color: "black" }}
+              
                 href="https://github.com/HafsaQureshi1"
               >
-                <FontAwesomeIcon style={{width:'15px' ,height:'25px'}} className="" icon={faGithub} />
+                <FontAwesomeIcon id="hov" style={{width:'19px' ,height:'19px'}} className="p-2" icon={faGithub} />
               </a>
-              <a
-                style={{ color: "black" }}
+              <a 
+               
                 href="https://www.instagram.com/hafsa_qureshi_890/"
               >
-                <FontAwesomeIcon style={{width:'15px' ,height:'25px'}} className="mx-3" icon={faInstagram} />
+                <FontAwesomeIcon id="hov" style={{width:'19px' ,height:'19px'}} className="mx-1 p-2 " icon={faInstagram} />
               </a>
-            </span>
+            </div>
           </div>
-
+          </div>
           <div className="col-lg-4 col-md-5 col-sm-12 position-relative my-4  justify-content-center text-center">
             <br />
             <div className="mx-5 my-4 float-area position-absolute top-0 start-50 translate-middle-y">
@@ -123,7 +126,7 @@ const Hero = () => {
             {/* Float the logo on top of the pic */}
             <img style={{width:'65%'}} className=" img-fluid" src={pic} alt="" />
             <div className="my-4 float-area position-absolute top-0 start-50 translate-middle-x">
-              <img className="img-fluid float-img" src={logo2} alt="Skytsunami" />
+              <img  className="img-fluid float-img" src={logo2} alt="Skytsunami" />
             </div>
           </div>
         </div>
@@ -141,6 +144,7 @@ const Hero = () => {
 </ScrollLink>
  
   </div>
+  </section>
     </>
   );
 };
