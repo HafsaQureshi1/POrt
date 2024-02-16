@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import p10 from '../assets/images/p10.JPG';
@@ -12,26 +12,6 @@ import g1 from '../assets/images/g1.png';
 import g2 from '../assets/images/g2.png';
 import g3 from '../assets/images/g4.png';
 export default function Portfolio() {
-  const [activeTab, setActiveTab] = useState('tab1');
-
-  useEffect(() => {
-    const handleMouseMove = (event) => {
-      const dotCursor = document.querySelector('.orange-dot-cursor');
-      const { clientX, clientY } = event;
-
-      if (dotCursor) {
-        dotCursor.style.left = `${clientX}px`;
-        dotCursor.style.top = `${clientY}px`;
-      }
-    };
-
-    document.addEventListener('mousemove', handleMouseMove);
-
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
-
 
   return (
     <>

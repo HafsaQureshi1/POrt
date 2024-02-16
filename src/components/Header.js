@@ -5,6 +5,7 @@ import logo from '../assets/images/Dark Purple Modern Letter H Logo (1).png';
 import cvFile from '../assets/cv/Hafsa CV Resume.pdf';
 
 export default function Header() {
+ 
   const [navbarBackground, setNavbarBackground] = useState("transparent");
 
   const handleScroll = () => {
@@ -24,14 +25,29 @@ export default function Header() {
   };
 
   useEffect(() => {
+    const handleMouseMove = (event) => {
+      const dotCursor = document.querySelector('.orange-dot-cursor');
+      const { clientX, clientY } = event;
+
+      if (dotCursor) {
+        dotCursor.style.left = `${clientX}px`;
+        dotCursor.style.top = `${clientY}px`;
+      }
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
     window.addEventListener("scroll", handleScroll);
     return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <>
+     <div className="orange-dot-cursor">
+          <div className="inner-dot"></div>
+        </div>
     <section className="header">
       <Navbar expand="lg" className={`navbar navbar-expand-lg navbar-light fixed-top`} style={{ backgroundColor: navbarBackground }}>
         <div className="container-fluid">
@@ -110,13 +126,7 @@ export default function Header() {
           </div>
         </div>
       </Navbar>
-      <section class="example example--1">
-    <span class="scroll-icon">
-      <span class="scroll-icon__wheel-outer">
-        <span class="scroll-icon__wheel-inner"></span>
-      </span>
-    </span>
-  </section>
+      
       <br /></section>
     </>
   );
