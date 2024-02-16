@@ -10,7 +10,7 @@ export default function Header() {
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
     if (scrollPosition > 100) {
-      setNavbarBackground("rgb(255, 240, 233)");
+      setNavbarBackground("white");
     } else {
       setNavbarBackground("transparent");
     }
