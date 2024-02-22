@@ -25,9 +25,7 @@ export default function Portfolio() {
             <h5 style={{ color: 'gray', fontFamily: 'sans-serif' }}>Here are a few past design projects I've worked on.</h5>
      <br />
         {/* Custom orange dot cursor */}
-        <div className="orange-dot-cursor">
-          <div className="inner-dot"></div>
-        </div>
+       
         <br />
         <Tabs
       defaultActiveKey="profile"

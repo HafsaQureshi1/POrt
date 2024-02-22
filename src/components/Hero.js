@@ -36,7 +36,7 @@ const Hero = () => {
       <br />
       <section id="hero">
       <div
-        style={{ marginTop: "90px" }}
+        style={{ marginTop: "100px" }}
         className="mx-auto container-fluid  justify-content-center  "
       >
         <div className="mx-auto row dflex justify-content-center mx-5">
