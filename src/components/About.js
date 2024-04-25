@@ -20,8 +20,8 @@ export default function About(){
     return(
         <>
         <section id="about">
-          <br /><br /><br /><br />
-            <div className="container-fluid justify-content-center text-center my-5 wow-delayed">
+          <br /><br />
+            <div className="container-fluid justify-content-center text-center  wow-delayed">
                 <div className="row  justify-content-center text-center">
                 <div className=" col-lg-5 col-md-6 col-sm-12 ">
                     <img style={{width:'80%'}} className="img-fluid my-3" src={u} alt="" />
@@ -36,7 +36,7 @@ export default function About(){
             </div>           </div>
                     <div className="col-lg-1"></div>
                 </div>
-            </div> <br /><br />
+            </div> 
             </section>       </>
     )
 }

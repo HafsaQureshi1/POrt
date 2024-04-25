@@ -55,7 +55,7 @@
     border: 2px solid rgb(219, 58, 0);
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.8s; /* Apply transition to color and background-color */
+    transition: all 0.5s; /* Apply transition to color and background-color */
   
   }
   
@@ -119,7 +119,7 @@
 }
 .wow-delayed {
   opacity: 0;
-  transition: opacity 1.5s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 
@@ -172,7 +172,7 @@
   width: 100%;
   border-radius: inherit;
   background: #2c2b2b;
-  animation: scroll_1 2.75s ease-in-out infinite;
+  animation: scroll_1 1.2s ease-in-out infinite;
 }
 
 .scroll-icon {
@@ -210,10 +210,10 @@
 }
 
 .animated-text {
-  animation: textAnimation 2s ease-in-out; /* Adjust the duration and timing function as needed */
+  animation: textAnimation 1s ease-in-out; /* Adjust the duration and timing function as needed */
 }
 .animated-text1 {
-  animation: textAnimation 3s ease-in-out; /* Adjust the duration and timing function as needed */
+  animation: textAnimation 1s ease-in-out; /* Adjust the duration and timing function as needed */
 }
 .skill-container {
   width: 100%;
@@ -229,7 +229,7 @@
   border-radius: 8px;
   height: 10px; /* Set your preferred height */
   margin-top: 0px; /* Adjust spacing as needed */
-  transition: width 3s ease-in-out; /* Adjust the duration for the animation */
+  transition: width 1s ease-in-out; /* Adjust the duration for the animation */
 }
 #hov{
   color: rgb(0, 0, 0);
