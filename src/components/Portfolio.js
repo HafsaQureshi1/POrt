@@ -22,6 +22,7 @@ import q8 from '../assets/images/design1/design4.png';
 import q9 from '../assets/images/design1/design6.png';
 import q10 from '../assets/images/design1/design7.png';
 import q11 from '../assets/images/design1/web2.PNG';
+import railfood from '../assets/images/Railfood.png'
 
 
 
@@ -68,7 +69,7 @@ export default function Portfolio() {
           {/* Custom orange dot cursor */}
           <br />
           <Tabs
-            defaultActiveKey="profile"
+            defaultActiveKey="ui"
             id="uncontrolled-tab-example"
             className="mb-3 justify-content-center text-center"
             style={{ fontSize: '25px' }}
@@ -99,9 +100,28 @@ export default function Portfolio() {
               </div>
             </Tab>
             <Tab eventKey="ui" title="App UI">
-              <div className="mx-3 row my-2 justify-content-center text-center ">
-                  <div  className="my-5   col-lg-4 justify-content-center text-center ">
-                    <img style={{ width: '100%', border: '1px solid grey', borderRadius: '20px' }} className="img-fluid" src={q11} alt="" />
+              <div className="mx-3 row my-2  ">
+                  <div  className="my-5   col-lg-7 justify-content-center text-center ">
+                   <a className='web'  href="https://www.figma.com/design/VZpCmSS0gWLx1850kq0ymj/railfoods?node-id=0-1&t=yhtsN4EmrAUHrpZ3-1" // Add your Figma link here
+  target="_blank" // Opens the link in a new tab
+  rel="noopener noreferrer"  > <img style={{ width: '100%', border: '1px solid grey', borderRadius: '20px' }} className="img-fluid" src={railfood} alt="" /></a>
+                  </div>
+                  <div  className="   col-lg-5 ">
+                   <a className='web' style={{textAlign:'left',textDecoration:'none ',color:'black'}} href="https://www.figma.com/design/VZpCmSS0gWLx1850kq0ymj/railfoods?node-id=0-1&t=yhtsN4EmrAUHrpZ3-1" // Add your Figma link here
+  target="_blank" // Opens the link in a new tab
+  rel="noopener noreferrer"  > <br/><br/><br/><h1  className='web' > Food Delivery App Design Railfood</h1>
+  <p className='text-success web'>Railfoods app design features a user-friendly interface optimized for food delivery. The design includes a clean layout with intuitive navigation, allowing customers to easily browse and order food. Key UI elements such as vibrant food imagery, clear call-to-action buttons, and streamlined checkout processes enhance the user experience. The design also integrates restaurant-side functionality for uploading dishes, managing orders, and processing payments, ensuring seamless interaction between customers and restaurants.</p> </a>
+                  </div>
+                  <div  className="my-5   col-lg-6 justify-content-center text-center ">
+                   <a  href="https://www.figma.com/design/Ttx1DDuMsVfNw6HuptsFhn/Loyalty-App?node-id=0-1&t=F3Yj2J58Ds8taH9X-1" // Add your Figma link here
+  target="_blank" // Opens the link in a new tab
+  rel="noopener noreferrer"  > <img style={{ width: '100%', border: '1px solid grey', borderRadius: '20px' }} className="img-fluid" src={q11} alt="" /></a>
+                  </div>
+                  <div  className="my-5   col-lg-6 justify-content-center text-center ">
+                   <a style={{textDecoration:'none'}} href="https://www.figma.com/design/Ttx1DDuMsVfNw6HuptsFhn/Loyalty-App?node-id=0-1&t=F3Yj2J58Ds8taH9X-1" // Add your Figma link here
+  target="_blank" // Opens the link in a new tab
+  rel="noopener noreferrer"  ><br/><br/><br/><h1  className='web' >Loyalty App Design</h1>
+  <p className='text-success web'>loyalty app design revolves around enhancing user engagement and rewarding customer retention. It features a clean and modern UI with a clear visual hierarchy, making it easy for users to navigate. Key design elements include progress tracking for rewards, personalized offers, and straightforward redemption processes. The app emphasizes ease of use, ensuring that customers can effortlessly view their points, claim rewards, and access exclusive deals. The interface balances simplicity with visually appealing elements to create an engaging experience for users.</p> </a>
                   </div>
                 
               </div>
